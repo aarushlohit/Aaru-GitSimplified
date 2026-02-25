@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include requirements.txt
+include install.sh
+include install.ps1
+include install_windows.bat
+include build_exe.sh
+include build_exe.bat
+include aaru.spec
+recursive-include aarush *.py *.txt *.jsonc
+recursive-include aarush/commands *.py
+recursive-include aarush/ascii-profile *.txt
